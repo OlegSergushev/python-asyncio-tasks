@@ -4,3 +4,4 @@ Short Python scripts using asyncio to showcase asynchronous programming concepts
 - 'fireworks_show.py': This script simulates a fireworks show using Python's `asyncio` module.
 - 'wood_craft.py': Asynchronous code implements interaction between two coroutines: one that gathers wood and the other that makes items from that wood.
 - 'port_scanning.py': The program simulates the execution of asynchronous network requests using asyncio.sleep().
+- 'dungeon_exploration.py': The code allows a group of players to enter dungeons. Each dungeon is entered with exactly 5 players. The code forms groups using asyncio.Barrier. The enter_dungeon() coroutine waits for the time specified for each player, and then queues up to wait using the barrier.
