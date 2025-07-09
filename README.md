@@ -8,3 +8,4 @@ Short Python scripts using asyncio to showcase asynchronous programming concepts
 - 'dungeon_exploration_2.py': Improved version of `dungeon_exploration.py` code. The new code takes into account the moment when there will not be enough players to gather a full group for a long time. If any of the players in the queue to enter waits more than 5 seconds, the barrier will be reset.
 - 'asynchronous_notifications.py': The program simulates the operation of the notification system.
 - 'patient_coordination.py': This is an asynchronous code for distributing patients to specialist doctors in a medical center. The code manages patient queues, where each patient has a referral to a doctor of a certain profile. There are 3 queues in total.
+- 'help_the_library.py': The code implements the process of reserving books using `asyncio.Lock()`.
